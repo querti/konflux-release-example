@@ -41,6 +41,8 @@ spec:
               #!/bin/sh
               set -eu
               echo "MOTD: $(params.motd)"
+              echo "Intentionally failing the pipeline..."
+              exit 1
     - name: output-release-resources
       params:
         - name: release

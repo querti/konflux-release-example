@@ -13,11 +13,11 @@ spec:
   data:
     mapping:
       components:
-        - name: hello-world-1
-          repository: <quay.io/sconroykonflux/hello-world>
+        - name: helloworld-d911d
+          repository: quay.io/lgallovi-test/newer-test
           tags:
             - latest
-            - hello-world-1
+            - helloworld-d911d
             - "{{ release_timestamp }}"
             - "{{ digest_sha }}"
   pipeline:

@@ -15,13 +15,7 @@ spec:
   application: hello-world-app
   artifacts: {}
   components:
-  - containerImage: quay.io/redhat-user-workloads/rh-ee-sconroy-tenant/hello-world-1@sha256:3fbfeccd420b6606e1167575532b77b181484d44b037745a2e4b46d802e09822
-    name: hello-world-1
-    source:
-      git:
-        revision: db80c57139a8d9fadb850b63f971234ffb1068aa
-        url: https://github.com/seanconroy2021/helloworld
-  - containerImage: quay.io/redhat-user-workloads/rh-ee-sconroy-tenant/helloworld-d911d@sha256:fd133678768adbdbee9468304110d2e6805e0165707b725750a37438d629fd72
+  - containerImage: quay.io/lgallovi-test/new-test@sha256:fd133678768adbdbee9468304110d2e6805e0165707b725750a37438d629fd72
     name: helloworld-d911d
     source:
       git:
