@@ -29,11 +29,11 @@ spec:
       resolver: git
       params:
         - name: url
-          value: https://github.com/konflux-ci/community-catalog.git
+          value: https://github.com/querti/community-catalog.git
         - name: revision
-          value: a5e45c62d8a5651b6449db94d5da22d79dba8d05
+          value: main
         - name: pathInRepo
-          value: pipelines/notify-slack-on-failure/notify-slack-on-failure.yaml
+          value: pipelines/notify-slack-on-failure.yaml
     params:
       - name: secretName
         value: slack-webhook-secret
